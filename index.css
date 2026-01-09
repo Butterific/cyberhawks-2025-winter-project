@@ -1,0 +1,143 @@
+#title {
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #31a8ba;
+    font-size: 65px;
+    color: rgb(0, 225, 255);
+    font-family: Comic Sans MS;
+    text-align: center;
+}
+#gametitle {
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #19993b;
+    font-size: 65px;
+    color: rgb(46, 230, 40);
+    font-family: Comic Sans MS;
+    text-align: center;
+}
+#credits{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Comic Sans MS;
+}
+body {
+  background-color: #b5d5d7; 
+  background-image: url("snow.gif");
+}
+#base-text-formating {
+    color: rgb(219, 251, 255);
+    font-family: Comic Sans MS;
+    text-align: center;
+    font-size: 25px;
+
+}
+#firstsong{
+    color: rgb(255, 255, 255);
+    background-color: #18ca5f; 
+    cursor: pointer;
+    border: 4px dotted green;
+    font-family: Comic Sans MS;
+    font-size: 32px;
+    box-shadow: 10px 10px greenyellow;
+    border-radius: 10px;
+}
+#firstsong:hover{
+    background-color: #0487383e;
+    box-shadow: 10px 10px #0487383e;
+}
+#secondsong{
+    color: rgb(255, 255, 255);
+    background-color: #ca1818; 
+    cursor: pointer;
+    border: 4px dotted red;
+    font-family: Comic Sans MS;
+    font-size: 32px;
+    box-shadow: 10px 10px red;
+    border-radius: 10px;
+}
+#secondsong:hover{
+    background-color: #8704043e;
+    box-shadow: 10px 10px #8704043e;
+}
+#thirdsong{
+    color: rgb(255, 255, 255);
+    background-color: #1821ca; 
+    cursor: pointer;
+    border: 4px dotted rgb(25, 109, 161);
+    font-family: Comic Sans MS;
+    font-size: 32px;
+    box-shadow: 10px 10px blue;
+    border-radius: 10px;
+}
+#thirdsong:hover{
+    background-color: #040f873e;
+    box-shadow: 10px 10px #2004873e;
+}
+#fourthsong{
+    color: rgb(255, 255, 255);
+    background-color: #b6b325;
+    cursor: pointer; 
+    border: 4px dotted yellow;
+    font-family: Comic Sans MS;
+    font-size: 32px;
+    box-shadow: 10px 10px yellow;
+    border-radius: 10px;
+}
+#fourthsong:hover{
+    background-color: #5d87043e;
+    box-shadow: 10px 10px #6687043e;
+}
+#game{
+    color: rgb(255, 255, 255);
+    background-color: #a3319f; 
+    cursor: pointer;
+    border: 4px dotted rgba(115, 16, 119, 0.576);
+    font-family: Comic Sans MS;
+    font-size: 32px;
+    box-shadow: 10px 10px rgb(86, 26, 54);
+    border-radius: 10px;
+}
+#game:hover{
+    background-color: #657484ec;
+    box-shadow: 10px 10px #657484ec;
+    color: rgb(255, 255, 255);
+}
+
+#game1{
+    color: rgb(255, 255, 255);
+    background-color: #0d3d16; 
+    cursor: pointer;
+    border: 4px dotted rgba(92, 197, 88, 0.576);
+    font-family: Comic Sans MS;
+    font-size: 32px;
+    box-shadow: 10px 10px rgb(37, 161, 39);
+    border-radius: 10px;
+}
+#game1:hover{
+    background-color: #1da818ec;
+    box-shadow: 10px 10px #397b40ec;
+    color: rgb(255, 255, 255);
+}
+#reset{
+    color: rgb(15, 80, 31);
+    background-color: #ffffff; 
+    cursor: pointer;
+    border: 4px dotted rgba(211, 195, 195, 0.576);
+    font-family: Comic Sans MS;
+    font-size: 32px;
+    box-shadow: 10px 10px grey;
+    border-radius: 10px;
+}
+#reset:hover{
+    background-color: #657484ec;
+    box-shadow: 10px 10px #657484ec;
+    color: rgb(255, 255, 255);
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.hr{
+    width: 75%;
+}
